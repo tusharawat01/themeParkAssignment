@@ -1,0 +1,65 @@
+.profile {
+    position: absolute;
+    left: 61.4%;
+    top: 124.94%;
+    border-right: 4px solid #D9D9D9;
+
+}
+
+.profile-step {
+    display: flex;
+    position: relative;
+    width: 494px;
+    height: 130px;
+    border-bottom: 4px solid #D9D9D9;
+    ;
+}
+
+.profile-step .topCard {
+    flex: 1;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+}
+
+.profile-step .topCard h4 {
+    margin-left: 15px;
+}
+
+.profile-step .bottomCard {
+    flex: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.profile-step .bottomCard button {
+    padding: 10px 40px;
+    background: #4375FB;
+    color: white;
+    font-size: small;
+    font-weight: 400;
+    border-radius: 0%;
+    border: none;
+    width: 135px;
+    height: 35px;
+}
+
+.profile-step .after {
+    margin-top: 40px;
+    margin-left: 43px;
+    color: #4375FB;
+}
+
+.profile-step .date {
+    margin-left: 230px;
+    margin-top: 15px;
+}
+
+.profile .notcompleted {
+    background: #e9e4e4;
+
+}

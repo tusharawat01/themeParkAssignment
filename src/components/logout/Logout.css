@@ -1,0 +1,22 @@
+.logout {
+    position: absolute;
+    left: 22%;
+    width: 78%;
+    height: 100%;
+}
+
+.logout h1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 4px solid #D9D9D9;
+}
+
+.logout img {
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
